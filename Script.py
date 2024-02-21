@@ -438,6 +438,11 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 
 ᴠ2.8.1 [sᴛᴀʙʟᴇ] """
 
+    LOGO = """
+ ____  ___    ____   __  ____  ____ 
+(_  _)/ __)  (  _ \ /  \(_  _)(__  )
+  )( ( (_ \   ) _ ((  O ) )(   / _/ 
+ (__) \___/  (____/ \__/ (__) (____)"""
     
 # dont remove my logo 
     PAID_TXT = """<b>Join a Prime group to get free movie without any ads
