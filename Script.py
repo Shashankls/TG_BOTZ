@@ -462,7 +462,7 @@ Would you like to become a Prime Member? Follow these steps:-
 ✤ Step 2: Pay using UPI ID depending on your plan.
 ✤ Step 3 : Send screenshot to our admin or owner Or contact me to send a screenshot.
 
-Any doubts or how to become a prime member? contact shashank.ls @Rockerssupport_bot </code></b>"""
+Any doubts or how to become a prime member? contact @shashank.ls @Rockerssupport_bot </code></b>"""
 
 
 
