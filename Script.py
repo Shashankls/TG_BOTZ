@@ -159,7 +159,7 @@ Nᴀᴍᴇ - {}"""
 
     MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
 
-      SHORTLINK_INFO = """<b>⍟───[ Contact ]───⍟
+    SHORTLINK_INFO = """<b>⍟───[ Contact ]───⍟
 ✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Rockerssupport_bot'>bot owner</a></b>"""
 
 
