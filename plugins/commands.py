@@ -49,7 +49,7 @@ async def start(client, message):
                     InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/+7zIX_IX4vHRlOWY1")
                 ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('Donate 🙏', url="https://upier.vercel.app/pay/shashank.ls2580@ybl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text("👀")
@@ -101,7 +101,7 @@ async def start(client, message):
                     InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/+7zIX_IX4vHRlOWY1")
                 ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
-                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('Donate 🙏', url="https://upier.vercel.app/pay/shashank.ls2580@ybl")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
