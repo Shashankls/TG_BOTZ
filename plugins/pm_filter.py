@@ -1305,7 +1305,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             xo = await query.message.reply_text(f'🔐')
             await asyncio.sleep(1)
             await xo.delete()
-           await log_msg.reply_text(
+            await log_msg.reply_text(
                 text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                 quote=True,
                 disable_web_page_preview=True,
