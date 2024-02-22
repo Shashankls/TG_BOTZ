@@ -202,7 +202,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/+94GeXhUEMxw3ZGY9">Tᴏᴜᴄʜ</a>
+🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/+zskDMEHvYKg4NDRl">Tᴏᴜᴄʜ</a>
 ╰─────── • ◆ • ───────╯
 ಗುರು,
  ಶೇರ್ ಮಾಡುವ ಮೂಲಕ ನಮಗೆ support ಮಾಡು ❤️
