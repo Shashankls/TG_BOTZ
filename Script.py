@@ -202,14 +202,14 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/+9WiE9kCNrIdiYTBl">Tᴏᴜᴄʜ</a>
+🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/+78Zi1PHaxn02NzVl">Tᴏᴜᴄʜ</a>
 ╰─────── • ◆ • ───────╯
 ಗುರು,
  ಶೇರ್ ಮಾಡುವ ಮೂಲಕ ನಮಗೆ support ಮಾಡು ❤️
 
 =========== • ✠ • ===========
 ▫️ ᴄʜᴀɴɴᴇʟ :
- @kannadamovies_rockers  👈
+ https://t.me/+I8SnDgfPDCc1MDM1  👈
 ▫️ REQUEST movies ɢʀᴏᴜᴘ :
   https://t.me/+7zIX_IX4vHRlOWY1 ❤️
 =========== • ✠ • ===========</b>"""
