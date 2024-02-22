@@ -25,8 +25,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/TG_SUPPORT_GROUP"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url="https://t.me/movies_hub_official1")
+                                        InlineKeyboardButton('🦋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🦋', url=CHNL_LNK),
+                    InlineKeyboardButton('✨ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ✨', url="https://t.me/+7zIX_IX4vHRlOWY1")
                 ],[
                     InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
                   ]]
