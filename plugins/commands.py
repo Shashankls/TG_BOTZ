@@ -342,7 +342,10 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there\n\n ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್  ಮಾಡಲಾಗುವುದು ,ಬೇರೆ ಯಾರಿಗಾದರೂ ಕಲ್ಸಿ (forward ಮಾಡಿ) </i></b>\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n<b>If you want watch in chrome without ads  just forward the file  to
+    👉@Rockershome_bot
+    
+ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ Chrome ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ನೀವು ಬಯಸಿದರೆ ಫೈಲ್ ಅನ್ನು 👉@Rockershome_bot ಗೆ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</b>")
         await asyncio.sleep(3600)
         for x in filesarr:
             await x.delete()
@@ -418,7 +421,10 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there\n\n ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್  ಮಾಡಲಾಗುವುದು ,ಬೇರೆ ಯಾರಿಗಾದರೂ ಕಲ್ಸಿ (forward ಮಾಡಿ)</i></b>\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n<b>If you want watch in chrome without ads  just forward the file  to
+    👉@Rockershome_bot
+    
+ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ Chrome ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ನೀವು ಬಯಸಿದರೆ ಫೈಲ್ ಅನ್ನು 👉@Rockershome_bot ಗೆ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</b>",quote=True)
             await asyncio.sleep(3600)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -468,7 +474,10 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>",quote=True)
+    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there\n\n ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್  ಮಾಡಲಾಗುವುದು,ಬೇರೆ ಯಾರಿಗಾದರೂ ಕಲ್ಸಿ (forward ಮಾಡಿ)</i></b>\n\n ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n<b>If you want watch in chrome without ads  just forward the file  to
+    👉@Rockershome_bot
+    
+ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ Chrome ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ನೀವು ಬಯಸಿದರೆ ಫೈಲ್ ಅನ್ನು 👉@Rockershome_bot ಗೆ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ</b>",quote=True)
     await asyncio.sleep(3600)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
