@@ -43,7 +43,6 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://Shashank2db:shashank.ls1324@cluster0.s4tzgbi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Shashankls:shashank.ls1324@cluster0.htp1u2h.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
