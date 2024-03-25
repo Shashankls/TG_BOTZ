@@ -342,8 +342,12 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
-        await asyncio.sleep(600)
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>\n\n➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖\n📍If you want watch in chrome without ads  just forward the file  to
+     <b>👉@Rockershome_bot
+        👉@Rockershome_bot</b>
+
+ಜಾಹೀರಾತುಗಳಿಲ್ಲದೆ Chrome ನಲ್ಲಿ ವೀಕ್ಷಿಸಲು ನೀವು ಬಯಸಿದರೆ ಫೈಲ್ ಅನ್ನು 👉@Rockershome_bot ಗೆ ಫಾರ್ವರ್ಡ್ ಮಾಡಿ")
+        await asyncio.sleep(3600)
         for x in filesarr:
             await x.delete()
         await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
