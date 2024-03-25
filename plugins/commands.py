@@ -258,7 +258,7 @@ async def start(client, message):
         chat_id = int("-" + file_id.split("-")[1])
         userid = message.from_user.id if message.from_user else None
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=allfiles_{file_id}")
-        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 5 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 1 Hour to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
@@ -268,7 +268,7 @@ async def start(client, message):
                 ]
             )
         )
-        await asyncio.sleep(300)
+        await asyncio.sleep(3600)
         await k.edit("<b>Your message is successfully deleted!!!</b>")
         return
 
@@ -342,7 +342,7 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>\n<b>ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್ ಮಾಡಲಾಗುವದು ಯಾರಿಗಾದ್ರೂ ಕಳ್ಸಿ (forward ಮಾಡಿ)</ b> ")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your friends and Start Download there</i></b>\n<b>ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್ ಮಾಡಲಾಗುವದು ಯಾರಿಗಾದ್ರೂ ಕಳ್ಸಿ (forward ಮಾಡಿ) ಆಮೇಲೆ ಡೌನ್ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಿ</ b> ")
         await asyncio.sleep(3600)
         for x in filesarr:
             await x.delete()
@@ -418,7 +418,7 @@ async def start(client, message):
             btn = [[
                 InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
             ]]
-            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>\n<b>ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್ ಮಾಡಲಾಗುವದು ಯಾರಿಗಾದ್ರೂ ಕಳ್ಸಿ (forward ಮಾಡಿ)</ b>",quote=True)
+            k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 hour </u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your friends and Start Download there</i></b>\n<b>ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್ ಮಾಡಲಾಗುವದು ಯಾರಿಗಾದ್ರೂ ಕಳ್ಸಿ (forward ಮಾಡಿ)ಆಮೇಲೆ ಡೌನ್ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಿ</ b>",quote=True)
             await asyncio.sleep(3600)
             await msg.delete()
             await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
@@ -468,7 +468,7 @@ async def start(client, message):
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
-    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</i></b>\n<b>ಫೈಲ್ 1ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್ ಮಾಡಲಾಗುವದು ಯಾರಿಗಾದ್ರೂ ಕಳ್ಸಿ (forward ಮಾಡಿ)</ b>",quote=True)
+    k = await msg.reply("<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>1 Hour</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Friends and Start Download there</i></b>\n<b>ಫೈಲ್ 1 ಗಂಟೆಯ ಬಳಿಕ ಡಿಲೀಟ್ ಮಾಡಲಾಗುವದು ಯಾರಿಗಾದ್ರೂ ಕಳ್ಸಿ (forward ಮಾಡಿ) ಆಮೇಲೆ ಡೌನ್ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳಿ</ b>",quote=True)
     await asyncio.sleep(3600)
     await msg.delete()
     await k.edit_text("<b>Your File/Video is successfully deleted!!!\n\nClick below button to get your deleted file 👇</b>",reply_markup=InlineKeyboardMarkup(btn))
