@@ -1,5 +1,5 @@
 import pymongo
-from sample_info import tempDict
+
 from info import DATABASE_URI, DATABASE_NAME, SECONDDB_URI
 
 import logging
